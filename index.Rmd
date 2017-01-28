@@ -34,7 +34,7 @@ map.plot <- qmap("Australia", zoom = 4, maptype = "watercolor") +
   labs(title = "Where people are coming from")
 ```
 
-TESTING
+**This website is under construction and most of its content is for testing purposes only.**
 
 ***
 
