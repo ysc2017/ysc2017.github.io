@@ -1,0 +1,59 @@
+---
+title: "Venue, accommodation, and travel"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(googlesheets)
+library(ggmap)
+
+# Get venue data
+venue.data <- gs_title("ysc2017") %>% 
+  gs_read("venue")
+
+# ToDo: 
+```
+
+# Venue
+
+A venue for this event has not yet been finalised. 
+
+```{r, echo = FALSE}
+knitr::kable(venue.data,
+             col.names  = c("Venue name", "Address", "Phone"))
+```
+
+
+```{r Get map info, include = F}
+# Get registration info from gs.
+map.data <- gs_title("ysc2017") %>% 
+  gs_read("venue") 
+
+# Get lon and lat for each city/town.
+map.data <- map.data %>% 
+  cbind(geocode(map.data$venue.address))
+
+# Create map plot.
+map.plot <- 
+  qmap(map.data$venue.address, zoom = 15, maptype = "roadmap") +
+    geom_point(aes(x = lon,
+                   y = lat),
+               data = map.data,
+               alpha = 0.5,
+               size = 5,
+               colour = "darkgreen") 
+```
+
+```{r, echo = F}
+map.plot
+```
+
+
+# Accommodation
+
+
+# Travel
+
+

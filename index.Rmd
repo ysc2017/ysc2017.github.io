@@ -1,0 +1,62 @@
+---
+title: "Young Statisticians Conference 2017"
+author: "Statistical Society of Australia"
+---
+
+```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(googlesheets)
+library(ggmap)
+```
+
+
+```{r Get map info, include = F}
+# Get registration info from gs.
+map.data <- gs_title("ysc2017") %>% 
+  gs_read("registrations") %>% 
+  group_by(city.town) %>% 
+  summarise(count = n()) 
+
+# Get lon and lat for each city/town.
+map.data <- map.data %>% 
+  cbind(geocode(map.data$city.town))
+
+# Create map plot.
+map.plot <- qmap("Australia", zoom = 4, maptype = "watercolor") +
+    geom_point(aes(x = lon,
+                   y = lat,
+                   size = count),
+               data = map.data,
+               alpha = 0.5,
+               colour = "darkgreen") +
+  labs(title = "Where people are coming from")
+```
+
+TESTING
+
+***
+
+On behalf of the [Statistical Society of Australia](http://www.statsoc.org.au/), the YSC organising committee warmly invites you to join us in the Gold Coast at our biennial conference for early career researchers in statistics.
+
+***
+
+The conference will be held over two days, **Tuesday 26 and Wednesday 27 of September** from **9am to 5pm** each day. In addition to the formal schedule, there will also be social events and possibly workshops. 
+
+As the organising committee finalises details, announcements will be made via the SSA members' list.   
+
+***
+
+```{r, echo = F, fig.align='center'}
+map.plot
+```
+
+
+```{r, echo = F, include = F}
+main.dates <- data.frame(Date = dmy("26/09/2017", "27/09/2017"),
+                         Time = rep(c("9:00am - 5:00pm"), 2)) %>% 
+  mutate(Day = wday(Date, label = T, abbr = F)) %>% 
+  select(Day, Date, Time)
+knitr::kable(main.dates)
+```

@@ -1,0 +1,35 @@
+---
+title: "Program"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(googlesheets)
+
+# Get program data
+program.data <- gs_title("ysc2017") %>% 
+  gs_read("registrations")
+
+# ToDo: figure out how to convert to pdf so that they can download the table.
+```
+
+A program release date has not yet been finalised by the organising committee. 
+
+# Talks
+```{r, echo = F}
+knitr::kable(program.data %>% filter(type == "Talk") %>% 
+               select(first.name, last.name, institution, stream, title, abstract),
+             col.names = 
+               c("First name", "Last name", "Institution", "Subdiscipline", "Title", "Abstract"))
+```
+
+# Posters
+```{r, echo = F}
+knitr::kable(program.data %>% filter(type =="Poster") %>% 
+               select(first.name, last.name, institution, stream, title, abstract),
+             col.names = 
+               c("First name", "Last name", "Institution", "Subdiscipline", "Title", "Abstract"))
+```
+

@@ -1,0 +1,23 @@
+name: "Young Statisticians Conference 2017"
+output_dir: "."
+navbar:
+  title: "Young Statisticians Conference 2017"
+  right:
+    - text: "Information"
+      href: index.html # Must be called index for site to render.
+      menu:
+          - text: "Welcome"
+            href: index.html
+          - text: "Venue, accommodation, travel"
+            href: venue.html
+          - text: "Program"
+            href: program.html
+          - text: "Social events"
+            href: social.html
+          - text: "Registration"
+            href: registration.html
+          - text: "Contact"
+            href: contact.html
+output: 
+  html_document:
+    toc: true

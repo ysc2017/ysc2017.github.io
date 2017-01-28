@@ -1,0 +1,14 @@
+---
+title: "Registration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Registration has not yet opened for the **Young Statisticians Conference 2017**. 
+
+Members of the Statistical Society will receive updates automatically when registration opens. 
+
+If you are not a member and would like to be added to the mailing list for this event, please register your details [here](https://docs.google.com/forms/d/e/1FAIpQLScrtwxu4CRayb7iUTjwX7zQJUarav-D2kOXRV-SVX8LTXmJOA/viewform).

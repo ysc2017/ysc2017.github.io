@@ -1,0 +1,22 @@
+---
+title: "Organising committee"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(googlesheets)
+```
+
+
+```{r get info, include = F}
+contacts <- gs_title("ysc2017") %>% 
+  gs_read("committee") %>% 
+  knitr::kable()
+```
+
+```{r, echo = F}
+contacts
+```
+

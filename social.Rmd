@@ -1,0 +1,25 @@
+---
+title: "Social Program"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(googlesheets)
+
+# Get venue data
+social.data <- gs_title("ysc2017") %>% 
+  gs_read("social")
+
+# ToDo: 
+```
+
+No social events have been announced yet for this event.
+
+```{r, echo = FALSE}
+knitr::kable(social.data,
+             col.names  = c("Event", "Venue", "Time", "Date", "Description", "Cost"))
+```
+
