@@ -1,0 +1,31 @@
+---
+title: "Sponsorship"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*Sponsorship packages are now available!*
+
+Sponsor YSC2017 and you will not only support your and early career-statisticians, but you’ll raise awareness of your company to this important audience. It is an opportunity to define and promote your brand and key messages, offering you a highly-targeted recruiting platform.
+
+We would like to encourage you to explore the benefits of participating as a sponsor and securing your preferred options. While we have done our best to make all our packages outstanding value for you, we also offer the option of tailoring a package to your organisation's requirements if our standard packages do not meet your needs.
+
+# Sponsorship packages available
+
+*Platinum* – Major Sponsor - $5,000
+
+*Gold* - $2,000
+
+*Silver* - $1,000
+
+*Dinner* - $ 3,000
+
+*Awards* - $3,000
+
+*Hospitality* - $2,000 
+
+Please see our extensive sponsorship prospectus for details. To discuss further options, please contact the Executive Officer of SSA (eo@statsoc.org.au). 
+

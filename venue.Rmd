@@ -1,5 +1,6 @@
 ---
 title: "Venue, accommodation, and travel"
+toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -17,8 +18,6 @@ venue.data <- gs_title("ysc2017") %>%
 ```
 
 # Venue
-
-A venue for this event has not yet been finalised. 
 
 ```{r, echo = FALSE}
 knitr::kable(venue.data,
@@ -50,10 +49,30 @@ map.plot <-
 map.plot
 ```
 
-
 # Accommodation
+
+## Discount
+
+**To take advantage of the discount we have arranged, please download this [form](https://drive.google.com/file/d/0Bwx_ciAkl_MZeG1lbEZ5QUdHaFU/view?usp=sharing).**
+
 
 
 # Travel
 
+Getting to Tweed Heads is easy thanks to its accessibility from most popular capital cities and region centres.
 
+## By Air
+
+Those flying into Tweed Heads can choose to arrive at the Brisbane Airport, Gold Coast Airport or the Ballina/Byron Gateway Airport. The Gold Coast Airport is the closest to Tweed Heads at just 4km away however the Brisbane Airport also offers easy access to Tweed Heads via the Airtrain or the Pacific Motorway. If you're travelling from the south, the Ballina/Byron Gateway Airport provides easy access from regional and domestic centres and all airports offer the convenience of transfer services and car hire.
+
+## By Car
+
+The most convenient way to drive to Tweed Heads is via the country's main highway on the east coast, the Pacific Motorway. Passing directly through Brisbane, the Gold Coast, Tweed Heads and further south to Byron Bay and Ballina, the Pacific Coast offers a legendary touring route of which Tweed Heads is most definitely a highlight. If you have a little extra time on your trip, there are also a number of other routes that offer a more scenic drive to Tweed Heads from Brisbane, the Gold Coast, Byron Bay and Lismore.
+
+## By Bus/Coach
+
+The Tweed region and surrounds enjoy an extensive network of public transport which offers over 480 services daily. Services operate within the Tweed region to shopping centres, local destinations and attractions. There are also regular bus services operated by Premier and Greyhound Australia which provide transport to and from Brisbane, the Gold Coast, Byron Bay and as far south as Sydney.
+
+## By Train
+
+There are a number of rail networks that link Tweed Heads to surrounding regions however there is also an express airport rail link known as the 'Airtrain' that travels between the Brisbane Airport, Brisbane City and the Gold Coast. Regular services are operated daily until 10pm with connections available from the Gold Coast to Tweed Heads. 

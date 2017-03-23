@@ -11,7 +11,7 @@
 
 
 
-<title>Venue, accommodation, and travel</title>
+<title>Sponsorship</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -161,112 +161,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = false;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-#TOC {
-  display: none !important;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -324,63 +218,32 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Venue, accommodation, and travel</h1>
+<h1 class="title toc-ignore">Sponsorship</h1>
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#sponsorship-packages-available">Sponsorship packages available</a></li>
+</ul>
+</div>
 
-<div id="venue" class="section level1">
-<h1>Venue</h1>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Venue name</th>
-<th align="left">Address</th>
-<th align="left">Phone</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Mantra Twin Towns</td>
-<td align="left">Griffith St &amp; Wharf Street, Tweed Heads NSW 2485</td>
-<td align="left">13 15 17</td>
-</tr>
-</tbody>
-</table>
-<p><img src="venue_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-</div>
-<div id="accommodation" class="section level1">
-<h1>Accommodation</h1>
-<div id="discount" class="section level2">
-<h2>Discount</h2>
-<p><strong>To take advantage of the discount we have arranged, please download this <a href="https://drive.google.com/file/d/0Bwx_ciAkl_MZeG1lbEZ5QUdHaFU/view?usp=sharing">form</a>.</strong></p>
-</div>
-</div>
-<div id="travel" class="section level1">
-<h1>Travel</h1>
-<p>Getting to Tweed Heads is easy thanks to its accessibility from most popular capital cities and region centres.</p>
-<div id="by-air" class="section level2">
-<h2>By Air</h2>
-<p>Those flying into Tweed Heads can choose to arrive at the Brisbane Airport, Gold Coast Airport or the Ballina/Byron Gateway Airport. The Gold Coast Airport is the closest to Tweed Heads at just 4km away however the Brisbane Airport also offers easy access to Tweed Heads via the Airtrain or the Pacific Motorway. If you’re travelling from the south, the Ballina/Byron Gateway Airport provides easy access from regional and domestic centres and all airports offer the convenience of transfer services and car hire.</p>
-</div>
-<div id="by-car" class="section level2">
-<h2>By Car</h2>
-<p>The most convenient way to drive to Tweed Heads is via the country’s main highway on the east coast, the Pacific Motorway. Passing directly through Brisbane, the Gold Coast, Tweed Heads and further south to Byron Bay and Ballina, the Pacific Coast offers a legendary touring route of which Tweed Heads is most definitely a highlight. If you have a little extra time on your trip, there are also a number of other routes that offer a more scenic drive to Tweed Heads from Brisbane, the Gold Coast, Byron Bay and Lismore.</p>
-</div>
-<div id="by-buscoach" class="section level2">
-<h2>By Bus/Coach</h2>
-<p>The Tweed region and surrounds enjoy an extensive network of public transport which offers over 480 services daily. Services operate within the Tweed region to shopping centres, local destinations and attractions. There are also regular bus services operated by Premier and Greyhound Australia which provide transport to and from Brisbane, the Gold Coast, Byron Bay and as far south as Sydney.</p>
-</div>
-<div id="by-train" class="section level2">
-<h2>By Train</h2>
-<p>There are a number of rail networks that link Tweed Heads to surrounding regions however there is also an express airport rail link known as the ‘Airtrain’ that travels between the Brisbane Airport, Brisbane City and the Gold Coast. Regular services are operated daily until 10pm with connections available from the Gold Coast to Tweed Heads.</p>
-</div>
+<p><em>Sponsorship packages are now available!</em></p>
+<p>Sponsor YSC2017 and you will not only support your and early career-statisticians, but you’ll raise awareness of your company to this important audience. It is an opportunity to define and promote your brand and key messages, offering you a highly-targeted recruiting platform.</p>
+<p>We would like to encourage you to explore the benefits of participating as a sponsor and securing your preferred options. While we have done our best to make all our packages outstanding value for you, we also offer the option of tailoring a package to your organisation’s requirements if our standard packages do not meet your needs.</p>
+<div id="sponsorship-packages-available" class="section level1">
+<h1>Sponsorship packages available</h1>
+<p><em>Platinum</em> – Major Sponsor - $5,000</p>
+<p><em>Gold</em> - $2,000</p>
+<p><em>Silver</em> - $1,000</p>
+<p><em>Dinner</em> - $ 3,000</p>
+<p><em>Awards</em> - $3,000</p>
+<p><em>Hospitality</em> - $2,000</p>
+<p>Please see our extensive sponsorship prospectus for details. To discuss further options, please contact the Executive Officer of SSA (<a href="mailto:eo@statsoc.org.au">eo@statsoc.org.au</a>).</p>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
