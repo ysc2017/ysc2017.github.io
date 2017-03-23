@@ -10,7 +10,6 @@ navbar:
             href: index.html
           - text: "Venue, accommodation, travel"
             href: venue.html
-            menu:
           - text: "Program"
             href: program.html
           - text: "Social events"
