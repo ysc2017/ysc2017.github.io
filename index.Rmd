@@ -14,24 +14,25 @@ library(ggmap)
 
 ```{r Get map info, include = F}
 # Get registration info from gs.
-map.data <- gs_title("ysc2017") %>% 
-  gs_read("registrations") %>% 
-  group_by(city.town) %>% 
-  summarise(count = n()) 
+# map.data <- gs_title("ysc2017") %>% 
+#   gs_read("registrations") %>% 
+#   group_by(city.town) %>% 
+#   summarise(count = n()) 
 
 # Get lon and lat for each city/town.
-map.data <- map.data %>% 
-  cbind(geocode(map.data$city.town))
+# map.data <- map.data %>% 
+#   cbind(geocode(map.data$city.town))
 
 # Create map plot.
-map.plot <- qmap("Australia", zoom = 4, maptype = "watercolor") +
-    geom_point(aes(x = lon,
-                   y = lat,
-                   size = count),
-               data = map.data,
-               alpha = 0.5,
-               colour = "darkgreen") +
-  labs(title = "Where people are coming from")
+# map.plot <- qmap("Australia", zoom = 4, maptype = "watercolor") +
+#     geom_point(aes(x = lon,
+#                    y = lat,
+#                    size = count),
+#                data = map.data,
+#                alpha = 0.5,
+#                colour = "darkgreen") +
+#   labs(title = "Where people are coming from")
+
 ```
 
 **This website is under construction and most of its content is for testing purposes only.**
@@ -49,7 +50,7 @@ As the organising committee finalises details, announcements will be made via th
 ***
 
 ```{r, echo = F, fig.align='center'}
-map.plot
+# map.plot
 ```
 
 

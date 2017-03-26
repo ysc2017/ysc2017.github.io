@@ -161,112 +161,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = false;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-#TOC {
-  display: none !important;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -286,8 +180,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class=" logo.png"></span>
-     
+    Info
      
     <span class="caret"></span>
   </a>
@@ -328,9 +221,22 @@ div.tocify {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#venue">Venue</a></li>
+<li><a href="#accommodation">Accommodation</a></li>
+<li><a href="#getting-to-ysc-2017">Getting to YSC 2017</a><ul>
+<li><a href="#by-air">By Air</a></li>
+<li><a href="#by-car">By Car</a></li>
+<li><a href="#by-buscoach">By Bus/Coach</a></li>
+<li><a href="#by-train">By Train</a></li>
+</ul></li>
+</ul>
+</div>
 
 <div id="venue" class="section level1">
 <h1>Venue</h1>
+<p><img src="venue_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
 <table>
 <thead>
 <tr class="header">
@@ -347,17 +253,26 @@ div.tocify {
 </tr>
 </tbody>
 </table>
-<p><img src="venue_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
 <div id="accommodation" class="section level1">
 <h1>Accommodation</h1>
-<div id="discount" class="section level2">
-<h2>Discount</h2>
-<p><strong>To take advantage of the discount we have arranged, please download this <a href="https://drive.google.com/file/d/0Bwx_ciAkl_MZeG1lbEZ5QUdHaFU/view?usp=sharing">form</a>.</strong></p>
+<p>Delegates of YSC2017 receive a <strong>special discount</strong> when booking their accommodation at the <a href="http://www.mantra.com.au/queensland/gold-coast/coolangatta/accommodation/resorts/mantra-twin-towns/">Mantra Twin Towns</a>.</p>
+<p>The hotel offers a choice of hotel rooms or one, two and three bedroom apartments. Gather some friends around and save even more by sharing an apartment!</p>
+<p><strong>Hotel Rooms – including breakfast</strong></p>
+<ul>
+<li>Hotel Room (Queen Bed) $165.00 per night</li>
+<li>Hotel Deluxe Twin Room (Two Queen Beds) $185.00 per night</li>
+</ul>
+<p><strong>Fully Self Contained Apartments – breakfast not included</strong></p>
+<ul>
+<li>1 Bedroom (up to 2 persons) $165.00 per night</li>
+<li>2 Bedroom (up to 4 persons) $245.00 per night</li>
+</ul>
+<p><strong>These special rates cannot be booked online. Please use the booking <a href="https://drive.google.com/file/d/0Bwx_ciAkl_MZeG1lbEZ5QUdHaFU/view?usp=sharing">form</a>.</strong></p>
+<p>Located at the Southern tip of the Gold Coast, Mantra Twin Towns is the ideal place to stay if you’d not only like to stay close to the conference venue, but also be close to all the main attractions in Coolangatta and the Tweed Coast. From this Coolangatta accommodation it’s just a short stroll to the famous Greenmount beach or beautiful Rainbow Bay where the Quicksilver Roxy Pro is held annually - enjoy a swim or stroll along Marine Parade to soak in the sea views. When it comes to entertainment - you only need to walk through the covered walkway and you’re surrounded by restaurants, bars and everything on offer at the Twin Towns Services Club.</p>
 </div>
-</div>
-<div id="travel" class="section level1">
-<h1>Travel</h1>
+<div id="getting-to-ysc-2017" class="section level1">
+<h1>Getting to YSC 2017</h1>
 <p>Getting to Tweed Heads is easy thanks to its accessibility from most popular capital cities and region centres.</p>
 <div id="by-air" class="section level2">
 <h2>By Air</h2>
@@ -379,8 +294,6 @@ div.tocify {
 
 
 
-</div>
-</div>
 
 </div>
 

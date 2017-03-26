@@ -1,6 +1,5 @@
 ---
 title: "Venue, accommodation, and travel"
-toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -18,12 +17,6 @@ venue.data <- gs_title("ysc2017") %>%
 ```
 
 # Venue
-
-```{r, echo = FALSE}
-knitr::kable(venue.data,
-             col.names  = c("Venue name", "Address", "Phone"))
-```
-
 
 ```{r Get map info, include = F}
 # Get registration info from gs.
@@ -45,19 +38,37 @@ map.plot <-
                colour = "darkgreen") 
 ```
 
-```{r, echo = F}
+```{r, echo = F, fig.align="center"}
 map.plot
 ```
 
-# Accommodation
 
-## Discount
+```{r, echo = FALSE}
+knitr::kable(venue.data,
+             col.names  = c("Venue name", "Address", "Phone"))
+```
 
-**To take advantage of the discount we have arranged, please download this [form](https://drive.google.com/file/d/0Bwx_ciAkl_MZeG1lbEZ5QUdHaFU/view?usp=sharing).**
+# Accommodation 
 
+Delegates of YSC2017 receive a **special discount** when booking their accommodation at the [Mantra Twin Towns](http://www.mantra.com.au/queensland/gold-coast/coolangatta/accommodation/resorts/mantra-twin-towns/).  
 
+The hotel offers a choice of hotel rooms or one, two and three bedroom apartments. Gather some friends around and save even more by sharing an apartment! 
 
-# Travel
+**Hotel Rooms – including breakfast**
+
+- Hotel Room (Queen Bed) $165.00 per night
+- Hotel Deluxe Twin Room (Two Queen Beds) $185.00 per night
+
+**Fully Self Contained Apartments – breakfast not included**
+
+- 1 Bedroom (up to 2 persons) $165.00 per night
+- 2 Bedroom (up to 4 persons) $245.00 per night
+
+**These special rates cannot be booked online. Please use the booking [form](https://drive.google.com/file/d/0Bwx_ciAkl_MZeG1lbEZ5QUdHaFU/view?usp=sharing).**
+
+Located at the Southern tip of the Gold Coast, Mantra Twin Towns is the ideal place to stay if you’d not only like to stay close to the conference venue, but also be close to all the main attractions in Coolangatta and the Tweed Coast. From this Coolangatta accommodation it’s just a short stroll to the famous Greenmount beach or beautiful Rainbow Bay where the Quicksilver Roxy Pro is held annually - enjoy a swim or stroll along Marine Parade to soak in the sea views. When it comes to entertainment - you only need to walk through the covered walkway and you’re surrounded by restaurants, bars and everything on offer at the Twin Towns Services Club. 
+
+# Getting to YSC 2017
 
 Getting to Tweed Heads is easy thanks to its accessibility from most popular capital cities and region centres.
 

@@ -3,7 +3,7 @@ output_dir: "."
 navbar:
   title: "Young Statisticians Conference 2017"
   right:
-    - icon: logo.png
+    - text: "Info"
       href: index.html # Must be called index for site to render.
       menu:
           - text: "Welcome"
