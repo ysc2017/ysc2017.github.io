@@ -16,5 +16,5 @@ Members of the Statistical Society will receive updates automatically when regis
 If you are not a member and would like to be added to the mailing list for this event, please register your details [here](https://docs.google.com/forms/d/e/1FAIpQLScrtwxu4CRayb7iUTjwX7zQJUarav-D2kOXRV-SVX8LTXmJOA/viewform).
 
 <div>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScb9AN4J6odAa8HleA_fsKJ_vG_Ukn7XMM4Dz_Cv67z0jGjTA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScb9AN4J6odAa8HleA_fsKJ_vG_Ukn7XMM4Dz_Cv67z0jGjTA/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>  

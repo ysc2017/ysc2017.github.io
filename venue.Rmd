@@ -48,7 +48,7 @@ knitr::kable(venue.data,
              col.names  = c("Venue name", "Address", "Phone"))
 ```
 
-# Accommodation 
+# Where to stay 
 
 Delegates of YSC2017 receive a **special discount** when booking their accommodation at the [Mantra Twin Towns](http://www.mantra.com.au/queensland/gold-coast/coolangatta/accommodation/resorts/mantra-twin-towns/).  
 
@@ -68,7 +68,7 @@ The hotel offers a choice of hotel rooms or one, two and three bedroom apartment
 
 Located at the Southern tip of the Gold Coast, Mantra Twin Towns is the ideal place to stay if you’d not only like to stay close to the conference venue, but also be close to all the main attractions in Coolangatta and the Tweed Coast. From this Coolangatta accommodation it’s just a short stroll to the famous Greenmount beach or beautiful Rainbow Bay where the Quicksilver Roxy Pro is held annually - enjoy a swim or stroll along Marine Parade to soak in the sea views. When it comes to entertainment - you only need to walk through the covered walkway and you’re surrounded by restaurants, bars and everything on offer at the Twin Towns Services Club. 
 
-# Getting to YSC 2017
+# Getting there
 
 Getting to Tweed Heads is easy thanks to its accessibility from most popular capital cities and region centres.
 
