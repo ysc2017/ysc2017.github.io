@@ -1,0 +1,10 @@
+---
+title: "Video competition"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We will be announcing details of this super fun competition soon.

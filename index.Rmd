@@ -3,6 +3,7 @@ title: "Young Statisticians Conference 2017"
 author: "Statistical Society of Australia"
 ---
 
+
 ```{r setup, include=FALSE}
 # knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
@@ -35,15 +36,20 @@ library(ggmap)
 
 ```
 
-**This website is under construction and most of its content is for testing purposes only.**
+**Some elements of this website are still under construction. We are not yet accepting registrations. Please [contact](http://ysc2017.com.au/contact.html) us should you need any information.**
 
 ***
 
-On behalf of the [Statistical Society of Australia](http://www.statsoc.org.au/), the YSC organising committee warmly invites you to join us in the Gold Coast at our biennial conference for early career researchers in statistics.
+On behalf of the [Statistical Society of Australia](http://www.statsoc.org.au/), the Young Statisticians Conference organising committee warmly invites you to join us in the Gold Coast at our biennial conference for students and early career researchers in statistics.
 
 ***
 
-The conference will be held over two days, **Tuesday 26 and Wednesday 27 of September** from **9am to 5pm** each day. In addition to the formal schedule, there will also be social events and possibly workshops. 
+The conference will be held over two days, **Tuesday 26 and Wednesday 27 of September** from **9am to 5pm** each day. In addition to the formal schedule, there will also be social events and a pre-conference workshop. Our keynote speakers are:
+
+   - Professor Di Cook (Monash University)
+   - Professor Bronwyn Harch (Queensland University of Technology)
+   - Violetta Misiorek (Chief Data Office at Suncorp Group)
+and an exciting international keynote speaker to be revealed soon.
 
 As the organising committee finalises details, announcements will be made via the SSA members' list.   
 
@@ -60,4 +66,11 @@ main.dates <- data.frame(Date = dmy("26/09/2017", "27/09/2017"),
   mutate(Day = wday(Date, label = T, abbr = F)) %>% 
   select(Day, Date, Time)
 knitr::kable(main.dates)
+```
+
+
+```{r out.width="40%", fig.align='center', echo = F}
+
+knitr::include_graphics("logo.png")
+
 ```

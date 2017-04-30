@@ -12,6 +12,8 @@ navbar:
             href: venue.html
           - text: "Program"
             href: program.html
+          - text: "Video competition"
+            href: video_comp.html
           - text: "Social events"
             href: social.html
           - text: "Registration"
