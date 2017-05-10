@@ -9,8 +9,17 @@ library(lubridate)
 library(googlesheets)
 
 # Get program data
-# program.data <- gs_title("ysc2017") %>% 
-#   gs_read("registrations")
+program.data <- gs_title("ysc2017") %>%
+  gs_read("registrations") 
+
+# colnames(program.data) <- c(
+#   "date.time",
+#   "email",
+#   "submit.update",
+#   "presentation.type",
+#   "first.name"
+#   
+# )  
 
 # ToDo: figure out how to convert to pdf so that they can download the table.
 ```

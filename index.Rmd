@@ -36,10 +36,6 @@ library(ggmap)
 
 ```
 
-**Some elements of this website are still under construction. We are not yet accepting registrations. Please [contact](http://ysc2017.com.au/contact.html) us should you need any information.**
-
-***
-
 On behalf of the [Statistical Society of Australia](http://www.statsoc.org.au/), the Young Statisticians Conference organising committee warmly invites you to join us in the Gold Coast at our biennial conference for students and early career researchers in statistics.
 
 ***
