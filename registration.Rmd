@@ -7,8 +7,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Registration
-
 Registration for the Young Statisticians Conference 2017 is now open. 
 
 1. [Click here to submit an abstract](https://docs.google.com/forms/d/e/1FAIpQLScb9AN4J6odAa8HleA_fsKJ_vG_Ukn7XMM4Dz_Cv67z0jGjTA/viewform), or you may use the embedded form on this page.
