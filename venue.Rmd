@@ -37,7 +37,7 @@ map.plot <-
                colour = "darkgreen") 
 ```
 
-```{r, echo = F, fig.align="center"}
+```{r, echo = F, fig.align="center", out.width = "60%"}
 map.plot
 ```
 
