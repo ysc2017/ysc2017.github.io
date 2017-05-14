@@ -24,7 +24,7 @@ The Young Statisticians Conference 2017 presents YSC 2017 Video Competition for 
 
 # Rules and regulations:
 
-- You must be an early career researcher (within 5 years of graduation)
+- You must be a student or an early career researcher (within 5 years of graduation) of statistics or a related field
 - One participant can submit only one video
 - Video length is limited to 1-3 minutes. Any video over 3 minutes will be automatically disqualified
 - Video must not have any slides, props or additional media (music, subtitles etc.)
@@ -34,9 +34,19 @@ The Young Statisticians Conference 2017 presents YSC 2017 Video Competition for 
 
 - Record and upload the video in Youtube with the privacy setting as ‘Unlisted’
 - Put your name in the ‘Title’ section and “YSC 2017 Video Competition” in the ‘Description’ section of the video
-- Register for the competition and put your details
+- Register for the competition and put your details (using the form embedded below)
 - Copy your video URL from [Youtube](https://www.youtube.com/) and paste it in the designated space in the registration form
 
 # Award
 
 Will be announced soon.
+
+# Registration
+
+Can't access the registration form? [Try here](https://docs.google.com/forms/d/e/1FAIpQLSd5LJRVZ2aAmjOnh_r1E2LXg-D_WyU3lMwGQwcZflfr1H1X8w/viewform)
+
+<div>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5LJRVZ2aAmjOnh_r1E2LXg-D_WyU3lMwGQwcZflfr1H1X8w/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<\div>
