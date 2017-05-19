@@ -67,6 +67,6 @@ knitr::kable(main.dates)
 
 ```{r out.width="40%", fig.align='center', echo = F}
 
-knitr::include_graphics("logo.png")
+knitr::include_graphics("pics/logo.png")
 
 ```

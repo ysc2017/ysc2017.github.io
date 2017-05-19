@@ -21,11 +21,52 @@ We would like to encourage you to explore the benefits of participating as a spo
 
 *Silver* - $1,000
 
-*Dinner* - $ 3,000
+*Dinner* - $3,000
 
 *Awards* - $3,000
 
 *Hospitality* - $2,000 
 
-Please see our extensive sponsorship prospectus for details. To discuss further options, please contact the Executive Officer of SSA (eo@statsoc.org.au). 
+Please see our extensive [sponsorship prospectus](http://www.statsoc.org.au/wp-content/uploads/2017/01/YSC17-Sponsorship-Prospectus.pdf) for details. To discuss further options, please contact the Executive Officer of SSA (eo@statsoc.org.au). 
 
+# Gold sponsors
+
+## Monash Business School
+
+
+```{r out.width="40%", fig.align='center', echo = F}
+
+knitr::include_graphics("pics/monash_logo.jpg")
+
+```
+
+
+Monash Business School is a dynamic and progressive academy delivering the highest quality teaching, learning, scholarship and research. We are among the 1% of business schools in the world to have achieved the elite 'triple crown' of accreditation by the three major global business school accreditation bodies – [AACSB](http://www.aacsb.edu/), [EQUIS](https://www.efmd.org/accreditation-main/equis) and [AMBA](http://www.aacsb.edu/) – and the only Group of Eight Australian university to have done so.
+
+Monash Business School’s Department of Econometrics and Business Statistics is one of the few departments in the world that is dedicated to econometrics and business statistics. It is also the only department in Australia with dedicated honours and postgraduate programs in the area.
+
+Our areas of research strength include econometric theory and methods, applied econometrics, statistics, time series analysis, forecasting, data visualisation and analytics. As a testament to the quality of our research, Monash was given the highest possible rank (“well above world standard”) in the discipline of econometrics in the 2012 and 2015 “Excellence in Research for Australia” assessments.
+
+## Data Analysis Australia
+
+
+
+```{r out.width="40%", fig.align='center', echo = F}
+
+knitr::include_graphics("pics/DAA_logo.png")
+
+```
+
+
+Data Analysis Australia is the largest commercial statistical and data science consultancy in Australia. Founded in 1988 by Dr John Henstridge, the company provides consultancy services to a wide range of industry and government clients, both nationally and internationally. Data Analysis Australia’s work has guided major planning and policy development, investigated solutions for business performance improvement, and assisted businesses to make crucial operating decisions. Over the years the company has developed an approach that sees it presenting complete solutions rather than just the technical components.
+
+Some of Data Analysis Australia’s areas of expertise include:
+
+
+* Applied statistical analysis and forecasting;
+* Survey design, implementation and analysis;
+* Analysis of large and complex databases;
+* Risk and business analysis; and
+* Analysis of geographical data, including GIS and Census data.
+
+Data Analysis Australia maintains close links with the Statistical Society of Australia and is an avid supporter of the next generation of statisticians. To this end, the company supports professional initiatives and is especially proud to provide gold sponsorship for the 2017 Young Statistician’s Conference.
