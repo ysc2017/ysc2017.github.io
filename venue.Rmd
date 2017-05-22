@@ -1,5 +1,9 @@
 ---
 title: "Venue, accommodation, and travel"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -8,6 +12,7 @@ library(tidyverse)
 library(lubridate)
 library(googlesheets)
 library(ggmap)
+library(leaflet)
 
 # Get venue data
 venue.data <- gs_title("ysc2017") %>% 
@@ -37,8 +42,17 @@ map.plot <-
                colour = "darkgreen") 
 ```
 
-```{r, echo = F, fig.align="center", out.width = "60%"}
-map.plot
+```{r, echo = F, fig.align="center"}
+# out.width = "60%"
+# 878map.plot
+leaflet(width = "100%") %>% addProviderTiles("CartoDB.Positron") %>%
+  setView(lat = -28.168431, lng = 153.544431, 13) %>% 
+  addMarkers(lat = -28.168431,  
+             lng = 153.544431, 
+             label = "Tweed Events, Twin Towns") %>% 
+  addMarkers(lat = -28.168723,
+             lng = 153.542856,
+             label = "Mantra Twin Towns")
 ```
 
 
