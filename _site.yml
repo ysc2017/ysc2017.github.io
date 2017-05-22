@@ -1,7 +1,7 @@
 name: "Young Statisticians Conference 2017"
 output_dir: "."
 navbar:
-  title: "Young Statisticians Conference 2017"
+  title: <div><img src="logo.png" height="32" width="32" hspace="20" />YSC 2017</div>
   right:
     - text: "Info"
       href: index.html # Must be called index for site to render.
