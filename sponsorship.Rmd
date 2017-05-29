@@ -53,7 +53,6 @@ Our areas of research strength include econometric theory and methods, applied e
 ## Data Analysis Australia
 
 
-
 ```{r out.width="40%", fig.align='center', echo = F}
 
 knitr::include_graphics("pics/DAA_logo.png")
@@ -73,3 +72,14 @@ Some of Data Analysis Australia’s areas of expertise include:
 * Analysis of geographical data, including GIS and Census data.
 
 Data Analysis Australia maintains close links with the Statistical Society of Australia and is an avid supporter of the next generation of statisticians. To this end, the company supports professional initiatives and is especially proud to provide gold sponsorship for the 2017 Young Statistician’s Conference.
+
+## Minitab
+
+
+```{r out.width="40%", fig.align='center', echo = F}
+
+knitr::include_graphics("pics/minitab.jpg")
+
+```
+
+
