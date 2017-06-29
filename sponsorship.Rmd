@@ -32,6 +32,21 @@ We would like to encourage you to explore the benefits of participating as a spo
 
 Please see our extensive [sponsorship prospectus](http://www.statsoc.org.au/wp-content/uploads/2017/01/YSC17-Sponsorship-Prospectus.pdf) for details. To discuss further options, please contact the Executive Officer of SSA (eo@statsoc.org.au). 
 
+# Platinum sponsors
+
+## ACEMS
+
+```{r out.width="60%", fig.align='center', echo = F}
+
+knitr::include_graphics("pics/ACEMS.png")
+
+```
+
+
+The Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) brings together for the first time a critical mass of Australia’s best researchers in applied mathematics, statistics, mathematical physics and machine learning, with partner researchers to engage in research programs that combine innovative methods for the analysis of data with theoretical, methodological and computational foundations provided by advanced mathematical and statistical modelling.
+ 
+ACEMS intent is to create world-class research at the frontiers of the mathematical sciences dealing with probability and randomness, and to translate this research into new insights that benefit society.  For more information about the Centre, see the [ACEMS website](acems.org.au).
+
 # Gold sponsors
 
 ## Monash Business School

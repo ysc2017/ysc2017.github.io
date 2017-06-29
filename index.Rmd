@@ -42,10 +42,10 @@ On behalf of the [Statistical Society of Australia](http://www.statsoc.org.au/),
 
 The conference will be held over two days, **Tuesday 26 and Wednesday 27 of September** from **9am to 5pm** each day. In addition to the formal schedule, there will also be social events and a pre-conference workshop. Our keynote speakers are:
 
-   - Assistant Professor Genevera Allen (Rice University)
-   - Professor Di Cook (Monash University)
-   - Professor Bronwyn Harch (Queensland University of Technology)
-   - Violetta Misiorek (Chief Data Office at Suncorp Group)
+Assistant Professor Genevera Allen  | Professor Di Cook | Professor Bronwyn Harch | Violetta Misiorek
+------------- | ------------- | ------------- | -------------
+<img src="http://www.stat.rice.edu/~gallen/gia_pic_bcm.JPG" width="150" height="150"/>| <img src="http://monash.edu/research/explore/files/8097651/f8799.jpg" width="150" height="150"/> | <img src="http://www.science.uq.edu.au/images/careers/profiles/bronwyn-harch.jpg" Width="150" height="150"/> | <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/09b/32f/254f426.jpg" width="150" height="150"/>
+Rice University | Monash University | Queensland University of Technology |Chief Data Office at Suncorp Group
 
 As the organising committee finalises details, announcements will be made via the SSA members' list.   
 
