@@ -1,0 +1,46 @@
+---
+title: "YSC2017 Abstract Submissions and Oral Presentations"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The organisers of the Young Statisticians Conference 2017 welcome your contribution to our event.
+
+It is important that you take a moment to read the following guidelines carefully to ensure your presentation is successful:
+
+# Prior to the Conference
+
+## Abstract submission
+
+The deadline for abstract submissions is 31 July 2017. Delegates will be notified within a week of the deadline as to whether or not their submission has been successful.
+
+To submit your abstract, please click [here](https://docs.google.com/forms/d/e/1FAIpQLScb9AN4J6odAa8HleA_fsKJ_vG_Ukn7XMM4Dz_Cv67z0jGjTA/viewform).
+
+All presenters are required to register for the Conference. If you have not done so already, please complete the [online registration form](https://statsoc.360membershipcrm.com.au/member/eventreg.php?eid=NDQ=). The registration deadline for presenters is 1 September 2017. Please be aware that if you do not register as soon as possible your abstract and presentation may be withdrawn.
+
+# At the Conference
+
+Arriving at the conference, speakers will need to visit the registration desk to collect their name badge and other related materials. From there you will receive directions on when and how to upload your presentation.
+
+Please assemble in your session room at least 10 minutes prior to the start of the session.
+
+In the event that you can no longer attend the conference, please notify the conference program organisers as soon as possible via email at sburden@uow.edu.au or Joshua Bon joshua.bon@live.com.
+
+## Powerpoint Presentations
+
+Presenters are allowed a 10-minute oral presentations followed by 5 minutes of discussion. Oral presentation sessions will run in parallel throughout the conference. If you wish to use presentation slides you should bring these on a USB in PowerPoint. Powerpoint presentations should be prepared in 4:3 aspect (standard). Should your presentation be in MAC format, it is imperative that this be converted to PC format prior to arrival at the Conference.
+
+You are required to provide a copy of your presentation on a USB to the technician on duty at the Speaker Preparation Desk no less than two hours before your session commences (or the day prior).
+
+Standard audio visual equipment provided in each room will be: a PC (laptop) with DVD drive and audio, a data projector and lectern with microphone. Presenters are unable to present from their own laptop.
+
+As presentation times will be strictly adhered to by the session chair, you may like to set a timer on your mobile phone to keep track of your time limit.
+
+Laser pointers will not be provided. Speakers can use their own pointer or can use the computer mouse located at the lectern to point to text in their presentation.
+
+Overhead and Slide Projection will not be available.
+
+Please do not rely on internet access being available from the presentation computer.

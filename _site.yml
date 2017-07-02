@@ -23,6 +23,9 @@ navbar:
         - text: "Registration"
           icon: fa-registered fa-1x     
           href: registration.html
+        - text: "Abstract submission"
+          icon: fa-superscript fa-1x
+          href: abstracts.html
         - text: "Sponsorship"
           icon: fa-usd fa-1x      
           href: sponsorship.html
