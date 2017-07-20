@@ -102,3 +102,17 @@ Minitab 18 is the leading statistical software for quality improvement and stati
 With its foundations in statistics education, Minitab is the package of choice for more than 4,000 colleges and universities around the world. It gives students the confidence to implement their statistical analysis knowledge later on in the workforce, and in some of the top companies in Australia, and internationally, including American Express, Crayola, Microsoft, Nike, and Toyota Motor.
 
 For more information, visit our [website](www.minitab.com.au). 
+
+
+# Silver sponsors
+
+## Australian & New Zealand Journal of Statistics (Wiley)
+
+
+```{r out.width="60%", fig.align='center', echo = F}
+
+knitr::include_graphics("pics/anzs.tif")
+
+```
+
+*Australian & New Zealand Journal of Statistics* is the official journal of the Statistical Society of Australia, Inc. and the New Zealand Statistical Association, published by Wiley. Publish in the *Australian & New Zealand Journal of Statistics* and you’ll benefit from instant global reach, broad subject coverage and article types, and fast publication times. [Wiley’s dedicated website](wileyauthors.com) can help you along your publishing journey, with useful hints, tips and resources to help improve your chances of acceptance.
