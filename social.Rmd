@@ -13,6 +13,7 @@ library(googlesheets)
 social.data <- gs_title("ysc2017") %>% 
   gs_read("social")
 
+
 # ToDo: Extract day names and display.
 ```
 
