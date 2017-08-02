@@ -1,0 +1,51 @@
+---
+title: "Pre-conference workshop"
+date: "25 September"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The workshop will be held on **25 September** 2017 in Coolangatta, at the Oaks Calypso Plaza, 99 Griffith St, Coolangatta
+
+Professor Di Cook is a Fellow of the American Statistical Association, and Ordinary Member of the R Foundation. Her research is in data visualisation, exploratory data analysis, multivariate methods, data mining and statistical computing. She has developed methods for visualising high-dimensional data using tours, projection pursuit, manual controls for tours, pipelines for interactive graphics, a grammar of graphics for biological data, and visualizing boundaries in high-d classifiers. She has  experimented with visualising data in virtual environments, participated in producing software including xgobi, ggobi, cranvas and several R packages. Her current work is focusing on bridging the gap between statistical inference and exploratory graphics. She is currently doing experiments using Amazon’s Mechanical Turk, and eye-tracking equipment. Some of the applications that she has worked on include backhoes, drug studies, mud crab growth, climate change, gene expression analysis, butterfly populations in Yellowstone, stimulus funds spending, NRC rankings of graduate programs, technology boom and bust, election polls, soybean breeding, common crop population structures, insect gall to plant host interactions, Melbourne pedestrian traffic sensors, soccer and tennis statistics.
+ 
+# About the Workshop
+
+Reproducible research, for publications, talks, and web sites using Rmarkdown with the R ecosystem.Many journals now require you to submit code to reproduce the results reported in your paper, and this will become the norm over the next few years.  Maintaining a public profile is important for many careers, and new tools using hugo enable web site construction, tincluding blogs.
+Why and how to organise data. Concepts of tidy data, and learning to rearrange data will be covered. It is often said that the data cleaning stage, often neglected in statistics education, takes 95% of your time. Being efficient in data handling can allow you to spend more time thinking about the problem to be solved.
+Making effective plots, grammar of graphics, good practices: Mapping data to graphical elements in plots using ggplot2. Simple plots, scatterplots, bar charts, time series, profiles, boxplots. Using cognitive principles to improve plots. Advanced graphics, layering, maps, interactivity: Layering different data sets, drawing maps, exploring model fits, multivariate plots. Simple interactive graphics.
+ 
+# Cost
+
+## Early Bird Fees (Payment on or before 7 August 2017)
+
+- SSA Full Member, YSC17 Delegates: $350.00
+- Non Members: $400.00
+- Student Members* of SSA, NZSA: $120.00
+- Non Member Students**: $160
+ 
+## Regular Fees (Payment from 8 August 2017 until 18 September 2017)
+
+- SSA Full Member, YSC17 Delegates: $400.00
+- Non Members: $450.00
+- Student Members of SSA*, NZSA: $170.00
+- Non Member Students**: $220
+ 
+*SSA Student Membership is available for $20 p/a.
+**Please email proof of full-time student status to eo@statsoc.org.au
+Should places still be available after 18 September 2017 registrations will be accepted, but a late fee of $50 will apply.
+ 
+Workshop participants well need to bring their own laptops with the latest versions of R (at least 3.3.3 2017-03-06) and RStudio (at least 1.0.136) and a version of git, such as gitkracken.
+ 
+# Travel Expenses
+Occasionally workshops have to be cancelled due to a lack of subscription. Early registration by as many participants as possible ensures that this will not happen. Please contact the SSA Office before making any travel arrangements to confirm that the workshop will go ahead, because the Society will not be held responsible for any travel or accommodation expenses incurred due to a workshop cancellation.
+
+# Cancellation Policy
+Cancellations received prior to Monday, 18 September 2017, will be refunded, minus a $20 administration fee. From 18 September 2017 no part of the registration fee will be refunded. However, registrations are transferable within the same organisation. Please advise any changes to eo@statsoc.org.au.
+ 
