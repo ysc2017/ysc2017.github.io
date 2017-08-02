@@ -38,7 +38,9 @@ Making effective plots, grammar of graphics, good practices: Mapping data to gra
 - Non Member Students**: $220
  
 *SSA Student Membership is available for $20 p/a.
+
 **Please email proof of full-time student status to eo@statsoc.org.au
+
 Should places still be available after 18 September 2017 registrations will be accepted, but a late fee of $50 will apply.
  
 Workshop participants well need to bring their own laptops with the latest versions of R (at least 3.3.3 2017-03-06) and RStudio (at least 1.0.136) and a version of git, such as gitkracken.
