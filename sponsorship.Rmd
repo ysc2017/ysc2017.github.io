@@ -111,7 +111,7 @@ For more information, visit our [website](www.minitab.com.au).
 
 ```{r out.width="60%", fig.align='center', echo = F}
 
-knitr::include_graphics("pics/anzs copy.tiff")
+knitr::include_graphics("pics/anzs copy.png")
 
 ```
 
