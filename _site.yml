@@ -20,7 +20,7 @@ navbar:
         - text: "Video competition"
           icon: fa-video-camera fa-1x   
           href: video_comp.html
-        - text: "Social events"
+        - text: "Social events + dinner"
           icon: fa-users fa-1x    
           href: social.html
         - text: "Registration"
