@@ -23,14 +23,16 @@ Making effective plots, grammar of graphics, good practices: Mapping data to gra
  
 # Cost
 
-## Early Bird Fees (Payment on or before Sunday August 13 2017)
+Register for the workshop [here](http://www.statsoc.org.au/events/ssai-events/cpd85-developing-career-thrive-data-rich-technology-drive-reproducible-research-environment/).
+
+## Early Bird Fees (Payment on or before 25 August 2017)
 
 - SSA Full Member, YSC17 Delegates: $350.00
 - Non Members: $400.00
 - Student Members* of SSA, NZSA: $120.00
 - Non Member Students**: $160
  
-## Regular Fees (Payment after Sunday August 13 2017 until 18 September 2017)
+## Regular Fees (Payment after August 25 2017 until 18 September 2017)
 
 - SSA Full Member, YSC17 Delegates: $400.00
 - Non Members: $450.00
