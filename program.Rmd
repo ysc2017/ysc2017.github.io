@@ -7,45 +7,69 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = F)
 library(tidyverse)
 library(lubridate)
 library(googlesheets)
 
 # Get program data
-program.data <- gs_title("ysc2017") %>%
-  gs_read("registrations") 
-
-# colnames(program.data) <- c(
-#   "date.time",
-#   "email",
-#   "submit.update",
-#   "presentation.type",
-#   "first.name"
-#   
-# )  
-
-# ToDo: figure out how to convert to pdf so that they can download the table.
-```
-
-A program release date has not yet been finalised by the organising committee. 
-
-# Talks
-```{r, echo = F}
-# knitr::kable(program.data %>% filter(type == "Talk") %>% 
-#                select(first.name, last.name, institution, stream, title, abstract),
-#              col.names = 
-#                c("First name", "Last name", "Institution", "Subdiscipline", "Title", "Abstract"))
+program_data <- gs_title("ysc2017") %>%
+  gs_read("program_ext") %>% 
+  select(-X9, -X10) %>% 
+  rename(Time = X1)
 
 ```
 
-# Posters
-```{r, echo = F}
-# knitr::kable(program.data %>% filter(type =="Poster") %>% 
-#                select(first.name, last.name, institution, stream, title, abstract),
-#              col.names = 
-#                c("First name", "Last name", "Institution", "Subdiscipline", "Title", "Abstract"))
+```{r Placeholder code, include = F}
+Monday <- program_data %>% 
+  select(Time, Monday)
 
+Tuesday <- program_data %>% 
+  select(Time, X3, Tuesday, X5) %>% 
+  rename(Session = X3,
+         Title = X5)
+  
+Wednesday <- program_data %>% 
+  select(Time, X6, Wednesday, X8) %>% 
+  rename(Session = X6,
+         Title = X8)
 
 ```
 
+
+# Monday 
+
+```{r}
+Monday %>% knitr::kable()
+```
+
+# Tuesday
+
+```{r}
+Tuesday %>% knitr::kable()
+```
+
+# Wednesday
+
+```{r}
+Wednesday %>% knitr::kable()
+```
+
+
+```{r Munge data, include=FALSE}
+# Collapse columns so we can gather by day.
+# prog_long <- program_data %>% 
+#   mutate(Tuesday = paste(X3, Tuesday, X5, sep = "_"),
+#          Wednesday = paste(X6, Wednesday, X8, sep = "_")) %>% 
+#   select(Time, Monday, Tuesday, Wednesday) %>% 
+#   gather(key = day,
+#          value = event,
+#          -Time) 
+
+# prog_test <- prog_long %>%
+#   filter(day != "Monday") %>% 
+#   separate(event, into = c("Session", "Name", "Title"), 
+#            by =  "[._]|[._]|[._]")
+
+
+```
