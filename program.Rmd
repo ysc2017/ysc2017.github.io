@@ -16,13 +16,27 @@ library(googlesheets)
 program_data <- gs_title("ysc2017") %>%
   gs_read("program_ext") %>% 
   select(-X9, -X10) %>% 
-  rename(Time = X1)
+  rename(Time = X1) %>% 
+  replace_na(list(Monday = "",
+                  X3 = "",
+                  Tuesday = "",
+                  X5 = "",
+                  X6 = "",
+                  Wednesday = "",
+                  X8 = ""))
+
 
 ```
 
 ```{r Placeholder code, include = F}
+# Function to convert NAs to "".
+na_gone <- function(x) {
+  if (is.na(x)) return(" ")
+}
+
+
 Monday <- program_data %>% 
-  select(Time, Monday)
+  select(Time, Monday) 
 
 Tuesday <- program_data %>% 
   select(Time, X3, Tuesday, X5) %>% 
